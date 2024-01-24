@@ -1,4 +1,4 @@
-const Profile = () => {
+const Profile = props => {
   return (
     <div>
       <img src="" alt="Jacob Mercer" width="180" height="180" />
