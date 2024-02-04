@@ -1,0 +1,22 @@
+table {
+    border-spacing: 0;
+    min-width: 400px;
+    text-align: center;
+}
+table thead {
+    background-color: #2e2c2c;
+    color: white;
+}
+table tbody{
+}
+table tbody tr{}
+table tbody tr:nth-child(2n){
+    background-color: #bababa;
+}
+table td, th{
+    border: 1px solid black;
+    padding: 6px 42px;
+}
+table tbody td:first-child {
+    text-align: left;
+}
