@@ -1,5 +1,5 @@
 import TransactionRow from './TransactionRow';
-import styles from '../components/TransactionHistory.module.css';
+import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
