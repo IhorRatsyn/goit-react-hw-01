@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TransactionRow = ({ type, amount, currency }) => {
   return (
     <tr>

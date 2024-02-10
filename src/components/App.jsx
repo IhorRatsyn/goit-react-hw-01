@@ -1,17 +1,16 @@
 import React from 'react';
 import userData from './userData.json';
 import Profile from './Profile';
-import './App.css';
 import FriendList from './FriendList';
 import friends from './friends.json';
-import '../components/FriendListItem.css';
-import '../components/TransactionHistory.css';
+
 import TransactionHistory from './TransactionHistory';
 import transactions from './transactions.json';
+import styles from '../components/App.module.css';
 
 const App = () => {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <Profile
         name={userData.username}
         tag={userData.tag}
